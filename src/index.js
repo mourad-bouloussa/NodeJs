@@ -36,7 +36,7 @@ app.get('/', function (req, res) {
     console.log(response.config);
   });
   */
-  res.send('Done')
+  res.send('Done!')
 })
 
 app.listen(3000, function () {
