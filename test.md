@@ -1,8 +1,9 @@
 # Title 1
 
 ## Title 2
-<p>Paragraph
-</p>
+
+Paragraph
+
 ```sh
 sh teradatagit.sh feat/integration
 ```
