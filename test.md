@@ -1,16 +1,18 @@
-# Script teradatagit.sh
+# dataplatform--teradata
+
+## Script teradatagit.sh
 
 
-## Prérequis
+### Prérequis
 Le flow Git utilisé dans le cadre de ce Repo transverse est différent de l'usage classique.
 Il est donc important d'avoir pris connaissance du <a href="https://training-dot-lmfr-ddp-dcp-prd.appspot.com/codelabs/how-to-work-with-Git-on-teradata-project/"> CodeLab </a> pour comprendre les mécanismes qui sont employés.
 
 
-## Objectif
+### Objectif
 En automatisant les opérations écrites dans le CodeLab, le script teradatagit.sh facilite et accélère les opérations de rebase et push de votre branche feature sur les branches develop, integration et master.
 
 
-## Usage
+### Usage
 Avant de commencer :
 - Assurez-vous que les branches develop, integration et master sont bien alignées. Dans le cas contraire, contactez un référent Git.
 - Assurez-vous aussi d'avoir créé votre branche feature en local depuis la master (nommée ici <feat/ma-branche>)  et l'avoir poussée sur Github (Cette branche feature servira de référence).
